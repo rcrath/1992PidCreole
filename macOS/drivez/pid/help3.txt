@@ -1,0 +1,24 @@
+HOUDINI MENUS
+=============
+
+   Major        UP, DOWN                MOVES topic selector
+   =====        RIGHT (or ENTER)        DISPLAYS topic details
+                LEFT (or ESC)           RETURNS to previous location
+                L                       LOOKUP in glossary for related details
+                S                       SEARCHES text using auto-synonyms
+
+   Useful       Ctrl-Home               RETURNS to MAIN screen
+   ======       M or F6                 MARKS a topic for future reference
+                P                       PRINTS a topic
+                Q, X, or Alt-X          QUITS the program
+
+   Minor        G                       GOTO a file (such as SEARCH.TXT)
+   =====        D                       DOS/PROGRAM call
+                E                       EDITOR loaded with displayed file
+                V                       VIEW sequence of selected topics
+
+                H                       Lists files with jumps TO current topic
+                C                       COLOR settings
+                HOME, End, PgUp, PgDn   CHANGES page displayed
+                Alt-F6 / Alt-F8         Clears BOOKMARK.TXT / CLIP.TXT files
+

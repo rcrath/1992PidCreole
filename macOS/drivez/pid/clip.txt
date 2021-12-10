@@ -1,0 +1,119 @@
+
+==== <C:\PID\emicetic.01>
+to be the appropriate way to approach them.  I am herein using
+the terms to mean the same as "the ways that 'a' and 'the' modify
+their referents."  To speak of "a" something is for my purposes
+to approach it emically.  To speak of "the" something is to
+approach it etically.  Both have advantages and disadvantages in
+
+==== <C:\PID\emicetic.01>
+        A careful reader (or _the_ careful reader!) might notice
+that this in effect treats determiners "a" and "the" as actions,
+as verbs, as "ways of approaching."  While at first this may seem
+odd, it is precisely what I perceive them to do--they modify
+something, bounding it in a particular fashion.  They in effect
+transform it from some ineffable, unanalyzable substance into a
+form, either created or discerned.
+        The questions of whether emic and/or etic exist "out there"
+can be broached only after scholars agree upon what they mean. 
+On close examination, they appear to be ways of creating and
+discovering.  As such emic and etic are actions or processes,
+verb-like transformations of stuff into something usable or
+analyzable.  That humans do this, especially with language,
+appears to be a universal.  How they do it seems to be infinitely
+variable.  Somehow these two features--species-wide universality
+and infinite variability--need to be considered in the same
+world.  Bounding, and diffusion of boundaries, is how we make the
+world analyzable.
+
+==== <C:\PID\pike01>
+     <emicetic.01>
+Pike on the problems of interpreting synchronically-described
+clusters:  
+
+          In the process of change from one phonemic system     
+to a differnt phonemic system of the same language,
+     there may be a time during which parts of the two
+     systems exist simultaneously and in conflict within the     
+speech of of singlew individuals. . . . It is
+     impossible to give a purely synchronic description of a     
+complex mixed system, at one point in time, which shows      the
+pertinent facts of that system; directionm of 
+     change is a pertinent characteristic of the system and     
+must also be known if one wishes to have a complete
+     descriptipon of the language as it is structurallly
+     constituted
+
+                         --from Fries and Pike (1949),
+"Coexistent Phonemic Systems" quoted from 161 of Weinrich, Labov,
+and Herzog in Lehmann, _Directions..._ (full cite on 190)
+
+This quote can be generalized through paraphrase by using
+"culture" for "language" and Pike's back formation of "emic" from
+"phonemic": 
+     In the process of change from one emic system to a
+     different emic system of the same culture, there may be     
+a time during which parts of the two systems exist
+     simultaneously and in conflict within single
+     individuals. . . . It is impossible to give a purely
+     synchronic description of a complex mixed system, at
+     one point in time, which shows the pertinent facts of
+     that system; directionm of  change is a pertinent
+     characteristic of the system and must also be known if     
+one wishes to have a complete description of the
+     culture as it is structurallly constituted
+
+==== <P-C\P-CJOURD.OTL>
+     linear stage models of transformation of pidgins
+     into creoles  are "rigid and dogmatic" in the face
+     of creoles without prior pidgins, for
+     non-nativized expanded pidgins and so forth.  This
+     is poor interpretation of structures in linguistic
+     theory--they are not meant to be series, although
+     many take them to be.  transformations are not
+     through time and space.  It is also a restatement
+     of the obvious in regard to the matter of prior
+     pidgins.  This issue has been on the table since
+     at least Hall's book, and is a favorite sawhorse
+     of sociolinguists, who are pretty much the only
+     ones who drag the thing out any more, only to
+     attributre it to their generative foes of the
+     moment (Hymes, rather than tewaching historical
+     method to Jouirdan, more likely taught her this.
+     He was bashing at transformational models of
+     pidgins and creoles and at chomsky in general with
+     this positon in the 1960s. <sochym00>
+
+==== <LSA\LSA-PPR.FIN>
+INDIVIDUALS AND AGGREGATES THROUGH TIME 
+        The strands of temporal narrative are obscured when
+individuals performing particular actions at specific times are
+lumped into an aggregate or when diachronic processes are
+analyzed as a synchronous mass.  The intentional stance of
+historical actors is lost.  At any particular moment, individuals
+may be assumed to be seeking to "make sense" of their world in
+their thoughts and actions.  Communities and statistical
+aggregates, though they may generate discernable patterns and
+correlations, cannot be granted such purposiveness and agency. 
+Often, the conclusions that can be rationally drawn from
+aggregate data correlations cannot be sustained once the
+constraints of time--unidirectionality and the unknowable nature
+of future events--are imposed.  
+        The most prevalent (and contentious) areas of tacit
+ahistoricism in pidgin and creole studies concern the ways that
+individuals and communities act through time, especially in
+relation to the concept of generations.  When speech communities
+are treated as individuals the boundaries between immigrant
+(pidgin or second language speaking) and native (creole or first
+language speaking) become amorphous.  While a useful reduction,
+the notion of generations cannot be applied literally to speech
+communities unless all the members thereof can be unambiguously
+designated as such and give birth and die in unison. 
+        Nonetheless, individuals can be reasonably located, with a
+minimum of ambiguity, as being either immigrant or native to a
+particular speech community even as the membership and speechways
+of the composite change through time.  Most of the seeming
+contradictions between creolists who recognize discrete
+generations and those who claim that pidgins and creoles merge
+imperceptibly into each other, if they can be differentiated at
+all, are traceable to this set of reductions.  

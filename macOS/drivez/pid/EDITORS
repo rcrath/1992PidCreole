@@ -1,0 +1,24 @@
+EDITORS and this hypertext utility
+
+  --	A very useful function of this hygen hypertext program is the ability 
+	to invoke an editor from any screen.  This feature might not 
+	work from floppies, but runs from a hard disc.
+  -- 	The editor included here is E.  For instructions on how to use it, 
+	see <e.doc>. The help screen (alt-H) ought to be sufficient to use 
+	it for most purposes.  It automatically makes .BAK files, so if 
+	you get to many, just delete them.
+  --	A third choice is to supply your own editor.  The dos EDIT.COM
+	works fine but is slow to load on many machines, a real fault in
+	hypertext applications.  Your regular word processor could also
+	be invoked if your machine has enough memory.  You can use 
+	WordPerfect's shell editor, ED.EXE.  This is my preference, because 
+	then the default editor can be set to WP and if your file is ascii, 
+	ED will very quickly come up, and if your file is WordPerfect, WP 
+	will come up automatically, if a bit slower.
+  --	The editor is set by changing a part of a line in the text 
+	file <config.hn>.  This can be done now, if the editor function 
+	is working, by making the hypertext jump to <config.hn> and 
+	pressing "E" to edit it.
+
+  --	For related information, see <comments 2>
+

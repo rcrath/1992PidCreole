@@ -1,0 +1,44 @@
+ASCII / WordPerfect file commands - page 1 of 2
+===============================================
+
+   Major
+   =====        UP, DOWN                SELECTS page and hypertext jumps
+                RIGHT (or ENTER)        EXECUTES hypertext jump
+                LEFT (or ESC)           RETURNS to parent hypertext jump
+
+   Useful
+   ======       Ctrl-Home               RETURNS to initial screen
+                L                       LOOKUP words in glossary
+                S                       SEARCH for words
+                W                       WORD highlight for glossary lookup
+
+                M or F6                 MARKS file - lists jumps to such files
+                F8                      COPY selected text to CLIP.TXT file
+                P                       PRINTS the file
+                Q, X, or Alt-X          QUITS the program
+                F / B                   Search file FORWARDS/BACKWARD by word
+
+
+
+            ... press Down arrow for more
+
+ASCII / WordPerfect file commands - page 2 of 2
+===============================================
+
+   Minor file commands
+   ===================
+                G                       GOTO another file (such as SEARCH.TXT)
+                D                       DOS/PROGRAM call (such as DIR)
+                E                       EDITOR loaded with displayed file
+                V                       VIEW previous selected hypertext jumps
+
+                H                       List files with jumps TO current file
+                C                       COLOR settings
+                Home, End, PgUp, PgDn   CHANGES the displayed page
+                Ctrl-RIGHT/LEFT         SCROLLS screen horizontally
+
+                Plus (+) / Minus (-)    SCROLLS screen vertically
+                Alt-F6                  Clears BOOKMARK.TXT
+                Alt-F8                  Clears CLIP.TXT files
+                Alt-E                   Calls associated program with file
+
