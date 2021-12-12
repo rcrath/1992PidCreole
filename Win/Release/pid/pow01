@@ -1,0 +1,103 @@
+﻿Formal/technical discussion of the semantics of power relations and other forms of relations.
+UP:<pow1>
+
+The analysis that follows depends heavily on two tools, functional set notation <cogfunct.nt> and the substance-individual-group-aggregate grid of conceptual distinctions. <cogcpt.map 1>.  
+
+1) Power relations are what enable who to do what to whom.
+
+This statement can be encoded as such:
+Relations (R) of (TYPE) power (P) are (=, ARE eq, EQUIVALENT TO) _what_ (W) enable (ABILITY give) _who_ (X) to (POSSIBLE/IRREAL) do (DO) _what_ (Y) to _whom_(Z).
+
+Yielding the functional set notation:
+{ARE eq [{Rtype[P]}, 
+{ABILITY give [W, {FOR-TO possible [{Y do[X,Z]}]}]}
+
+To paraphrase, 
+Rtype[P] are the W that gives X-s the ability to do Y to Z-s.
+Where:
+P 	=	unbounded, global properties--latent, and akin to substance; power.
+R 	=	a path or channel
+R(p)	=	Rtype[P]
+R(p)	=	P is the content of R.
+
+W	=	a bounded portion of P, a domain of P
+Y	=	an action, either bounded (perfect) or continuous.
+X	=	An agent
+Z	=	a patient
+
+Paraphrased, this yields:
+2)	Power relations are the bounded portion of power that gives agents the ability to interact in a particualar way with patients.
+
+This definition works well as long as it is remembered that "X does Y to Z" is a possible, but as yet unrealized (irreal) and unspecified, act and that X and Z are also as yet unspecified.  
+Why must X and Z remain irreal?
+
+This leaves the reciprocity of the relations implicit but intact.
+The implicit reciprocity in relational models is often overlooked, so it would be advisable to make it explicit.  To do this, two definitions can be clarified
+
+The only requirement of X and Z is that they each be able to participate effectively in the relationship.  Each must possess an externally bounded locus; i.e., each entity has to be an aggregate or an individual, it cannot be a substance or a group. <cogcpt.map 1>  Unbounded matter, i.e. substance, has no effective potential--there is no way to discern whether power has acted upon or emanated from it.  Groups are excluded from participating because an act upon them or from them instantaneously changes their constitution to include the other entity, else it is not a power relationship.  
+This participatory requirement is not unique to irrealis, being a necessary, perhaps even tautological, requirement for any entities in a relationship.  However, the reduction to a synchronic analysis changes these properties in ways with global significance within any relational model. <ahisyn1>  The difference between groups and aggregates is necessarily lost in synchronic analysis, and the differnce between individuals and aggregates often follows.  
+
+Y	=	a temporal manifestation of P between X and Z reciprocally; interaction, either bounded (perfect) or not (continuous).
+(X,Z)=	are entities capable of participating in a relationship, each possessing an externally bounded locus; i.e., each entity is an an aggregate or an individual.  However, they do not have explicit agent and patient roles because the situation is both reciprocal and irreal.  
+
+The following functions can then be applied to the definition of power relations, making reciprocity explicit:
+
+A	=	(X, Y, Z)
+S(a)	=	{Y do reciprocally [X,Z]}
+S(a)	=	{Or [(XYZ), (ZYX)]}
+S(a)	=	{RESPECTIVELY [{Y do reciprocally [{or [X,Z]}, {or [Z,X]}]}]}, where RESPECTIVELY means "use each member once and only once."
+N(s)	=	{FOR-TO possible [S(a)]}
+N(s)	=	An ordered relationship possible among participating entities and temporal manifestations of power.
+W(n) =	{ABILITY give [W, N(s)]}
+W(n) =	W enable N(s), W is globally represented in N(s), W is a necessary condition of any N(s). No truth claims are  involved as long as P remains latent/irreal; a possibility rather than history.
+W(n) =	Domain of latent power that enables an ordered relationship to be possible among participating entities and temporal manifestations of power.
+Substitution yields:
+R(p)	=	{W(n)}
+W(n)	=	{ABILITY give [W, N(s)]}
+N(s)	=	{FOR-TO possible [{Y do reciprocally [X,Z]}]}
+
+Further substitution yields:
+3) {ARE eq [{R type [P]}, {ABILITY give [W, {FOR-TO possible [{Y do reciprocally [X,Z]}]}]}]}
+or:
+R(p) are the W that make it possible for X and Z to interact in way Y
+So the working definition is now:
+4) Power relations are a domain of latent power that makes it possible for entities to interact in a way that temporally manifests that power between them.
+
+Factoring out power gives the definition of relations:
+5) Relations are a domain that makes it possible for entities to interact temporally.
+
+Compare with the _a priori_ definition given above:
+6) R = a reciprocal channel; a path. 
+
+************************
+Application of synchronic model to power relations yields:
+
+"As a result of X having power, X could AND DID do Y to Z"
+
+{X having W resulted in (X could do, and did, Y to Z)} 
+where W can be assumed to be the remaining W(x) after W(y) and W(z) have been subtracted.  The patient, Z, now passively and changelessly receives an invariant Y from the agent X with an unbounded supply of W (the unbounding of which makes it equivalent to homogenous P).  The entity with the most power becomes the agent, all other power is factored out.  
+          \/             
+***********\/*************
+          \/             
+7) However, note that the dynamic definition leaves no way of knowing how W is allotted to each entity (X,Y) or action (Y).  This is because the the union (U) of the set of powers (W) cannot be disaggregated into portions unique to any member without constructing arbitrary divisions.  
+
+W 	=	Union[W(x), W(y), W(z)] 
+W	=	Union[W(x,y,z)]
+
+
+R(p) = 	Union[W(x,y,z)] ENABLE N(s)
+
+
+8) It is only in the past tense, only when power has already been expressed through the relationship, that W can be accurately assigned to particular members of the set A -- But expressing power alters the power relations in the expression instantaneously, making the answer to the question "What are power relations?" descriptively approachable, but ultimately unobtainable.  
+
+%%%%%%%%%%%%%%%%%%%%%%%%
+Synchronic reduction
+%%%%%%%%%%%%%%%%%%%%%%%%
+
+In contrast (and in agreement with the proffered definition), consider:
+the definition from before:
+4) Power relations are a domain of latent power that makes it possible for entities to interact in a way that temporally manifests that power between them.
+and perhaps this definition:
+9) Power relations are the matrix of possible actors and possible actions.  There are no outcomes, because power deployed unidirectionally alters the relationship.  
+or more aphoristically,
+10) Power relations are ever-shifting threats and promises.

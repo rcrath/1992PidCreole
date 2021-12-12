@@ -1,0 +1,206 @@
+﻿┌──────────────────────────────────╥────────────────────────────┐
+│ ~catego01                        ║ UP: <conclus.ion>          │
+│ New synthetic categories         ║ NEXT: open                 │
+│                                  ║ <outline.hyp -synthetic>   │
+└──────────────────────────────────╨────────────────────────────┘
+~CATEGO01~ 
+`new synthetic categories`
+
+| Related Topics:
+-mothers  : <Start.txt>
+-sisters  : 
+-daughters:    <funct01> <state01> <Proc01> <thema01> {<inc>     
+         development, synchronic context, history,
+              perspective}
+-others   : |
+
+Many approaches operate _along different sets_ of axes from one
+another:
+    {S}
+{OPERATEaction[AGENTs, {DIFFERENTdelimit[PATH 1]...[PATH n+1]}]}
+
+
+A multiple perspectives approach would _operate differently_
+along a set of axes than current approaches, which insteasd posit
+operating along a privileged axis or from a privileged position
+within a privileged axis.  MP approaches do this chiefly by
+recognizing different axes and positions as such and exploring
+the perspectives they provide.
+
+In multiple approaches, an author compares a particular approach
+to others.
+PREPin{M-AP[compare{[AUTHOR], [AP n...n+i]}]
+
+For ex.:
+I serially take multiple approaches to multiple objects along
+multiple paths
+{SERIALLYdelimit[EVENT{take [NP, NP]}]}
+
+Repeatedly, an approach is followed by another approach.
+REPEATEDLYdelimit [is followed by {AP n, AP n+1}]
+
+In any particular approach _X_, a  particular agent approaches in
+a particular way a particular object of study related to a
+particular context. 
+(verb=v, agent=a, object=o, context is PLACE/PATH=p, X is the
+particular manifestation)
+
+{INprep[Xtheme{Xv[Xa,Xo,Xp]}]}
+
+S {X [TOPIC {X' [S' {X"v [ A,    O,    P     ]}]}]}
+=
+S {X [TOPIC {X' [S' {X"v [{A[X"a],O[X"o],P[X"p]}]}]}]}
+
+subset 1:
+A[X"],O[X"],P[X"] = 
+A{[1],...,[n]}, O{[1],...,[n]}, P{[1],...,[n]}
+
+subset 2:
+X'[S'{X"v[A,O,P]}]
+= 
+{[ACT-1{v[A,O,P]}],...,[ACT-N{v[A,O,P]}]}
+=
+X'[S'{v[{A[X"],O[X"],P[X"]}]}] 
+=
+{[ACT-1{v[{A[X"],O[X"],P[X"]}]}],...,
+[ACT-N{v[{A[X"],O[X"],P[X"]}]}]}.
+=
+{[ACT-1{v[A{[1],...,[n]}, O{[1],...,[n]}, P{[1],...,[n]}]}],...,
+[ACT-N{v[A{[1],...,[n]}, O{[1],...,[n]}, P{[1],...,[n]}]}]}
+
+so notation w/ subset 1 is:
+
+S {X [TOPIC { [ S' {[v1],...,[vn]} ] [A {[1],...,[n]},
+O {[1],...,[n]}, P {[1],...,[n]} ] } ]}  
+
+and full notation so far is 
+S {X [TOPIC {[ACT-1{[v1],..., [vn]}][A{[1],...,[n]},
+O{[1],...,[n]}, P{[1],...,[n]}]}] ,..., [ACT-N{[v1],...,
+[vn]}][A{[1],...,[n]}, O{[1],...,[n]}, P{[1],...,[n]}]}]}]}
+
+Substituting "{X'[...]}" for the full notation of the subclause
+yields:
+S {X [TOPIC {X'[...]} ]}
+
+from which can be derived:
+S {[APPROACH-1{X'[...]}], ..., [APPROACH-n {X'[...]}] 
+
+From which can be derived the most general form:
+S{[APPROACH 1], ..., [APPROACH n]}
+
+upon which can be built by re-substitution:
+S{[APPROACH 1 {[ACT 1], ..., [ACT n]}], ..., 
+    [APPROACH n{[ACT 1], ..., [ACT n]}]}
+
+and then:
+S{[APPROACH 1 
+{    [ACT 1 {[v1],..., [vn]} [A{[1],...,[n]}, O{[1],...,[n]},
+    P{[1],...,[n]}] 
+;....;
+    [ACT n {[v1],..., [vn]} [A{[1],...,[n]}, O{[1],...,[n]},
+    P{[1],...,[n]}] 
+}]
+
+,..., 
+
+[APPROACH n 
+{    [ACT 1 {[v1],..., [vn]} [A{[1],...,[n]}, O{[1],...,[n]},
+    P{[1],...,[n]}] 
+;....;
+    [ACT n {[v1],..., [vn]} [A{[1],...,[n]}, O{[1],...,[n]},
+    P{[1],...,[n]}] }] }
+
+and finally the full combinatorial pattern for the multiple
+perspectives model:
+S{[APPROACH-1 {[ACT 1 {[v1],..., [vn]} [A{[1],...,[n]},
+O{[1],...,[n]}, P{[1],...,[n]}] ;....; [ACT n {[v1],..., [vn]}
+[A{[1],...,[n]}, O{[1],...,[n]}, P{[1],...,[n]}] }]
+,..., 
+[APPROACH n {[ACT 1 {[v1],..., [vn]} [A{[1],...,[n]},
+O{[1],...,[n]}, P{[1],...,[n]}] ;....; [ACT n {[v1],..., [vn]}
+[A{[1],...,[n]}, O{[1],...,[n]}, P{[1],...,[n]}] }]}
+
+This full notation would yield any one approach of the form:
+S {APPROACH-n [ACT-n {vn[An, On, Pn]} ] } 
+
+
+
+Enough differrnt perspectives might provide views of differrnt
+facets of the same problem instead of the current 'dueling poles'
+methodology.
+
+Here are some axes and/or their poles:
+key-- 
+POSTULATE ONE OF THEORETICAL GRAVITY---
+The contents of any possible position can approach, but not
+reside at, the poles of an axis:
+
+AXIS: POLE ««« TOWARD ««« CONTINUUM  »»» TOWARD »»» POLE,
+abbreviated as 
+AXIS: POLE «≈» POLE, where «≈» = position
+This prevents the model from falling apart into infinity or from
+collapsing into itself like a black hole, although a tendency
+toward both exists in tension along an axis.
+
+POSTULATE TWO OF THEORETICAL GRAVITY---
+any axis assumes some fixed point [of engagement?] when it
+interacts with other axes.
+
+gravity: atomization «≈» singularity
+time: past «≈» future 
+causal: explanation «≈» prediction
+xxx: description «≈» prescription 
+    The axis is the medical term for the study of symptoms and
+    their remedies. etiology? diagnosis?
+certainty: absolute «≈» relative
+perspective: Subjective «≈» Objective
+    (internal«≈» external? emic «≈» etic?)
+consistency: local «≈» global
+xxxx: performance «≈» competence
+xxx: individual «≈» community
+xxx: representation «≈» communication
+meaning: generated «≈» perceived
+    --Perhaps production and conprehension are axes rather than
+    poles, or can function as either depending on interaction
+    with other axes.
+spider webs: how produced «≈» how used
+spatio-temporal: synchronic «≈» diachronic
+knowledge: ignorance «≈» omniscience
+understanding: x «≈» x 
+    how related to knowledge? (eg knows all but understands
+    none...)
+power: agent «≈» patient
+    (culprit «≈» victim)
+carrier «≈» carried
+vehicular «≈»  engine
+relational «≈» positional
+referential «≈» contextual
+emic «≈» etic
+«≈» «≈» «≈» «≈» «≈» «≈» «≈» «≈» «≈» «≈» 
+How are the axes related to each other? How are positions on an
+axis effected by time?
+
+form {<state01>}
+
+function, {<funct01>} --in terms of repre and communic. or combo
+thereof--implies further stuff re individual and societies as
+agents/determinants  (thematic roles?)--synthesize it in terms of
+thematic roles and grammatical-ness {<inc> thema01}
+
+context, {<inc> --this is what is usually considered function
+perhaps, but is actually function in its specific synchronic
+circumstances}
+
+development, {<inc> --situated context--historicism--perhaps the
+nominalization ("-ion" of the mechanizism ("-ize").}
+
+point-of-view, {<inc> --super--sub--"neutral" objective
+outsider??--ind/soc is handlerd by implications of function.}
+
+mechanism {<proc01> --the action, the "-ize" in new categorical
+context}
+
+~catego01~
+
+
+    

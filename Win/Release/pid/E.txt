@@ -1,0 +1,289 @@
+﻿Thanks for downloading E!
+
+E is a small, fast, general purpose editor.  It is copyrighted but you are
+hereby granted a limited license to use it free of charge.  While I am not
+aware of any bugs, I make no guarantees about its trustworthiness, so use it at
+your own risk.  Feel free to share it with others.  I only ask that you
+distribute these files together and unchanged and charge nothing for them (a
+distribution fee of up to $15 is allowed).
+
+Some of e's features:
+
+  - block and line move and delete functions, to/from buffer or another file
+
+  - find, replace, replace all
+
+  - set tabs, L and R margins, word wrap, autoindent
+
+  - set and jump to labels or line number
+
+  - shell to DOS, one-key execution of batch files
+
+  - DESQview-compatible (run in a window with direct write disabled)
+
+  - assembly language (TASM) for speed and compactness, source included
+
+  - configuration program included to change defaults
+
+
+Lines are limited to 80 chars in length.  Longer lines in input files are
+truncated.  Those entered at the terminal are wrapped at 80 characters.  Tab
+characters encountered as a file is being read in are converted to spaces using
+the current tab setting.
+
+Here is a summary of commands.  In the descriptions of these commands, '*'
+indicates that the function performs differently if the shift key is down.
+When in E, press F1 for help.  Whenever you are asked to enter a response to a
+prompt (as for a string to find or file name), just pressing Enter will usually
+cancel the command.
+
+
+Cursor movement:
+
+left                      left arrow, Ctrl S
+right                     right arrow, Ctrl D
+word left                 Ctrl left arrow, Ctrl A
+word right                Ctrl right arrow, Ctrl F
+tab right                 Tab
+tab left                  Shift Tab
+to left margin            Home
+to end of line            End
+up                        up arrow, Ctrl E
+down                      down arrow, Ctrl X
+page up                   PgUp, Ctrl R
+page down                 PgDn, Ctrl C
+start of file             Ctrl PgUp
+end of file               Ctrl PgDn
+assign label (0-9)        Alt L
+go to label (0-9)         Alt G
+jump to line #            Alt J
+
+
+Insert and Delete:
+
+delete char left          backspace
+delete char at cursor     Del
+    Pressing delete when the cursor is to the right of all text on a line joins
+    that line with the line below.
+delete word left          Ctrl [
+delete word right         Ctrl ]
+delete to end of line     Ctrl \
+delete line               Ctrl -, Ctrl Y
+undelete line             Ctrl ^
+    'Delete to end of line' and 'delete line' save the deleted text in a
+    buffer.  Use Ctrl ^ to retrieve one line at a time.  The same buffer is
+    used for block deletes, providing an easy way to move a few lines:  delete
+    the lines individually using Ctrl -, move the cursor to the new location,
+    then insert all the lines at once using Alt I (see below).  If the cursor
+    is at the left margin when a line is undeleted using Ctrl ^, the line is
+    inserted above the current line.  If it is to the right of the left margin
+    it overwrites what is currently on the line from that column on.  This is
+    useful for moving comments from the end of one line to another.
+toggle insert mode        Ins
+    Toggle between Insert (the default, signified by a line cursor) and
+    Overwrite (identified by a block cursor) modes of text entry.
+insert raw character      Alt = *
+    Insert the character which follows, which might otherwise be interpreted as
+    a command (for example a form feed character).  If shifted, 80h is added to
+    the character.  For example, to enter line drawing characters, press Shift
+    Alt =, then a character in the set {@, A-J}.  Warning: don't start a line
+    with a character whose ASCII value is > 80h (E uses that bit as a flag when
+    moving buffered lines during a file swap).
+
+
+Insert and Delete Block and File:
+
+mark start of block       Alt B
+copy block to buffer      Alt C *
+delete block to buffer    Alt D *
+insert block from buffer  Alt I *
+empty block buffer        Alt E *
+unmark                    Alt U
+    Alt C copies all marked lines (between the line where you pressed Alt B for
+    'mark start of block' and the present cursor location) to a buffer, or if
+    the shift key is also down, to a file.  Alt D deletes the original lines
+    after first copying them to the buffer or file.  Alt I inserts the contents
+    of the file or buffer above the present line.  Press Alt I several times to
+    insert multiple copies.  To move text, use Alt D then Alt I.  To move text
+    between two files, delete or copy to the block buffer, press Alt O to
+    change files, then Alt I to insert.  You can get lines into the buffer
+    using either Alt C or Alt D or the line delete commands Ctrl - or Ctrl \
+    and out using either Alt I or Ctrl ^.
+
+    All block commands marked with a '*' will read from or write to a file
+    instead of an internal buffer if the shift key is down (you will be
+    prompted for a file name).  Here's a useful trick:  to print part of a
+    file, first mark the start of the block with Alt B, then use Shift Alt C
+    and give 'prn' as the file name.
+
+    The block commands work on whole lines only.  To move part of a line, use
+    the Enter key to break it into pieces first.
+
+
+Formatting:
+
+set left margin           Ctrl Home
+set right margin          Ctrl End
+    These toggle the margin settings between the current cursor location and the
+    screen edge.
+set tab width             Alt T
+    E will expand all tabs found in files it edits.  If a file read in doesn't
+    look right, change the tab width, then read the file in again by pressing
+    Alt O and reentering the file name.
+wrap paragraph            Alt W
+    Readjust line lengths by moving words at the end up or down a line as
+    necessary to best fill out the lines within the boundaries set by the left
+    and right margins.  Wrapping will start at the beginning of the line the
+    cursor is on and stop at the first line on which text does not begin at the
+    left margin.  E automatically wraps text as you enter it, moving the first
+    word that overflows the right margin down to the beginning of a new line.
+toggle autoindent mode    Ctrl @
+    Autoindent mode causes each new line after a carriage return to be indented
+    as much as the line above it.  The default is on, the way you generally will
+    want it for programming.  Turn it off for most word processing except
+    writing outlines.
+Toggle text/programming mode defaults   Alt Z
+    Use this to change quickly between programming and text mode configurations.
+    E starts in programming mode with margins at 0, 79 and autoindent on.  ALT
+    Z toggles between this and margins at 8, 72 with autoindent mode off for
+    processing text.  You may alter E to start up in text mode each time or
+    change the default margins using the accompanying configuration program.
+
+
+Find and Replace:
+
+find                      Alt F *
+replace                   Alt R *
+find/replace all          Alt A *
+    After pressing Alt F and entering a string to find, E will put the cursor
+    at the start of the first string in the text which matches the search
+    string, ignoring case of letters.  If you then press Alt R, you will be
+    prompted for another string to replace the one just found.  Replace must
+    always be used immediately after Find.  If the shift key is also pressed,
+    the last string entered is used.  Use Find/Replace All only if you're sure
+    you want to change all occurrances of a string.  Otherwise use shifted Find
+    to locate each subsequent occurrence of a string, then shifted Replace only
+    for those instances you want to replace.
+
+
+Files and DOS:
+
+load other file           Alt O *
+    Alt O will save the current file if changed and prompt for the name of a
+    new file to edit.  Shift Alt O will return you to the last file edited at
+    the point you left off.  Repeatedly pressing Shift Alt O toggles back and
+    forth between two files.
+save and continue         Alt S
+save and exit             Alt X, Esc
+    Any time an attempt is made to save a file and the disk is full, E will let
+    you know.  If you can't just change disks and try again (perhaps your hard
+    disk is full), press Alt K, then F2 to shell to DOS, then delete some other
+    files to make room.  Then type 'exit' to return to E, type Alt K again to
+    mark the file to be saved and try the original command again.
+toggle kill save on exit  Alt K
+    Use Alt K before Alt X or Alt O to discard any changes made before exiting.
+    Pressing Alt K again reinstructs E to save the file at exit.
+shell to DOS              F2 *
+    Press F2 to exit E temporarily to run some other file or system command
+    (for example, DIR).  Type 'exit' after you are done to return to E.
+execute EFn.BAT           F3-F6 *
+    If it exists, the batch file EFn.BAT will be executed when Fn is pressed,
+    for n = 3 to 6.  The file being edited will be saved first if changed.  You
+    can use this feature to run a .BAT file to compile, link and/or debug the
+    file you are editing, print the file, perhaps passing it to a print
+    formatter such as NROFF first, even play a game if you are tired of
+    working, all without losing your place!
+
+    For example, here is the .BAT file I use to invoke the Turbo assembler,
+    linker and debugger for e.  It is named 'EF3.BAT', and runs whenever I push
+    F3.  '%1' is automatically replaced by the name of the file being edited
+    without the extension.
+
+        tasm -zi %1
+        IF ERRORLEVEL 1 GOTO fix
+        tlink /v %1
+        IF ERRORLEVEL 1 GOTO fix
+        tdstrip -s %1
+        exe2bin %1 %1.com
+        td %1.com
+        :fix
+        exit
+
+    If you use this feature to invoke an assembler or compiler, I recommend you
+    also install a program like BUFFIT to allow you to retrieve error messages
+    that have scrolled off the top of the screen.  Alternatively, you could
+    redirect the output of the compiler to your printer or add 'pause' at the
+    end of the batch file.
+
+    Here's a .BAT file to print the file currently being edited.  If you call
+    it EF4.BAT, it will cause the file to be printed when you press F4:
+
+        copy %1 prn
+
+    If the shift key is pressed along with F2 or F3 - F6, E contracts down to
+    under 7K, writing the file being edited to disk if changed, then reading it
+    back in afterward.  Anything in the block or other buffers is lost.  Use
+    this if the application which you are leaving E to run won't fit otherwise.
+
+
+I'd like to thank some folks who have helped with this project.  Jim DeVries
+wrote ECONFIG.EXE, with which you may change many of E's default settings.
+Mike Robertson sent me the original code to allow E to run under DESQview and
+contributed many helpful suggestions as I was developing and debugging E.
+Many other users have contributed helpful suggestions for improvements and bug
+reports -- thanks to all of you.  Thanks also to Barry Nance who said nice
+things about E in his column in the September '91 BYTE.
+
+I'd appreciate hearing about any bugs, and welcome any other comments.  To
+contact me, leave mail to dnye on BIX or write me at the address below.  Please
+enclose a stamped, self-addressed envelope if you write and want a reply.
+
+
+                                                      David Nye MD
+                                                      4209 W Lowe's Creek Rd.
+                                                      Eau Claire, WI  54701
+                                                      1 Feb, 1991
+                                                      BIX name: dnye
+
+Version history
+
+0.2, 1 Jan 1990
+    First widely released.
+
+0.3, 20 Jan 1990
+    Added F2 to execute a DOS command, Alt Z as a quick way to set up word
+    processing defaults.  Clearer help screen.  ESC no longer exits (I kept
+    hitting it by mistake).  Use Alt X instead.  Some minor bug fixes.  Added
+    more color monitor support (default colors, cursor fix).
+
+0.4, 28 Jan 1990
+    More bug fixes (last line in file no longer has CR LF appended, can no
+    longer start e up without a file name on the command line, then escape out
+    of entering a file name at the prompt).  There is now a byte settable with
+    debug to start e up in text mode instead of programming mode.  Can enter
+    chars above 80h with Shift Alt =.  Wrapping a line ending in one of the
+    punctuation characters in the set {.;:!?} leaves two spaces after the
+    character.
+
+0.5, 15 Feb 1990
+    More minor bug fixes.
+
+0.6, 28 Feb 1990
+    Added ability to run under DESQview and F3-F6 functions (to execute BATs).
+
+1.0, 15 Mar 1990
+    Bug fixes.  Added shifted F2-F6 functions.
+
+1.1, 7 July 1990
+    More bug fixes.  Now works under older (v. 2.?) DOS, recognises disk full.
+
+1.2, 12 Oct 1990
+    Minor bug fixes.
+
+1.3, 1 Feb 1991
+    Added Shift Alt O command to return to last file edited.  The lower of two
+    lines joined by pressing delete at the end of the upper line now has leading
+    spaces deleted.
+
+1.4, 13 Dec 1991
+    Bug fixes, find is now case-insensitive.

@@ -1,0 +1,40 @@
+﻿GLOSSARY commands - page 1 of 2
+===============================
+
+   Major
+   =====        UP, DOWN                SELECTS page and hypertext jumps
+                RIGHT (or ENTER)        EXECUTES hypertext jump
+                LEFT (or ESC)           RETURNS to parent hypertext jump
+                F5                      Displays ALL glossary entries (toggle)
+
+   Useful
+   ======       Ctrl-Home               RETURNS to initial screen
+                M or F6                 MARKS file - lists jumps to such files
+                W                       WORD highlight for glossary lookup
+                F8                      COPY selected text to CLIP.TXT file
+
+                P                       PRINTS the glossary entry
+                Q, X, or Alt-X          QUITS the program
+                L                       LOOKUP another word in glossary
+                S                       SEARCH for word or phrases
+
+
+             ... press DOWN for more
+
+
+GLOSSARY commands - page 2 of 2
+===============================
+
+   Minor
+   =====        G                       GOTO another file (such as SEARCH.TXT)
+                D                       DOS/PROGRAM call (such as DIR)
+                V                       VIEW previous selected hypertext jumps
+                H                       List files with jumps TO current file
+
+                C                       COLOR settings
+                Home, End, PgUp, PgDn   CHANGES displayed page
+                Ctrl-RIGHT / LEFT       SCROLLS screen horizontally
+                Plus (+) / Minus (-)    SCROLLS screen vertically
+                Alt-F6                  Clears BOOKMARK.TXT
+                Alt-F8                  Clears CLIP.TXT files
+

@@ -1,0 +1,24 @@
+﻿GRAPHIC file commands                   Press ESC to return
+=====================
+                        PCX  Color-TX
+   UP / DOWN             x     x        SELECTS hypertext jumps
+   RIGHT (or ENTER)      x     x        EXECUTES hypertext jump
+   LEFT (or ESC)         x     x        RETURNS to parent hypertext jump
+   Ctrl-Home             x     x        RETURNS to initial screen
+   L                     -     x        LOOKUP words in glossary
+   M or F6               x     x        MARKS file - lists jumps to such files
+   F8                    -     x        COPY selected text to CLIP.TXT file
+   P                     x     x        PRINTS the file
+   Q, X, or Alt-X        x     x        QUITS the program
+
+   G                     -     x        GOTO another file (such as SEARCH.TXT)
+   D                     -     x        DOS/PROGRAM call (such as DIR)
+   V                     x     x        VIEW previous selected hypertext jumps
+   H                     -     x        List files with jumps TO current file
+   C                     -     x        COLOR settings
+   Alt-F6 / Alt-F8       x     x        Clears BOOKMARK.TXT / CLIP.TXT files
+   Home / End            x     -        Selects FIRST / LAST hypertext jump
+   Ctrl-RIGHT / LEFT     x     -        SCROLLS graphic horizontally
+   PgUp / PgDn           x     -        SCROLLS graphic vertically
+   Press 1-9, 0          x     -        BRANCHES on screen displayed numbers
+

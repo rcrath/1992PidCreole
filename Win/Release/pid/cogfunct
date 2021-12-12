@@ -1,0 +1,22 @@
+﻿Functional set notation takes roughly the following form:
+{AAA bbb [{CCC} {DDD}]}
+Roughly:
+_CCC performs the bbb function of form AAA on DDD_
+
+Where CCC is a form of function bbb that takes two arguments, CCC and DDD.
+
+So, A one-argument clause,
+_She left_
+becomes
+{LEFT do [She]}
+
+A two argument clause,
+_John hits the ball_
+becomes
+{HIT do [John, ball]}
+
+And a three argument clause,
+_It gives her the creeps_
+becomes
+{GIVE do [It, her, the creeps]}
+--This is my interpretation of the set notation employed by Ray Jackendoff {<inc> ??}

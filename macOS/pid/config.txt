@@ -1,0 +1,37 @@
+﻿Header, 40 characters only              100 page manual for $20 - 415-540-5508
+Editor, 40 characters only              e.com
+Keystroke to TRACK.TXT (N/O/A)          N
+COM port for TEL: (1/2)                 1
+Tone or Pulse dialing (T/P)             T
+Auto Delete area code                   
+Leading Delimiter                       <
+Trailing Delimiter                      >
+Overlay Parameter                       EMS
+Glossary To KEYWORD.TXT (N/O/A)         N
+Printer Number (1/2/3/4)                1
+Printer (Laser/Dot/No)                  D
+Pause after DOS/Editor call (Y/N)       Y
+% Scale for Printer Width               150
+% Scale for Printer Height              150
+Show Close Glossary Terms (Y/N)         Y
+Cripple DOS Calls (Y/N)                 N
+Sound Card/PC Speaker/None (S/P/N)      S
+Show .AUD file (Y/N)                    N
+Flash PCX cursor (Y/N)                  Y
+Default CD_ROM drive (ex G)             
+Topic & ASCII Text Background           0
+Topic & ASCII Text Foreground           7
+Highlight Background                    7
+Highlight Foreground                    0
+Subject Text Background                 0
+Subject Text Foreground                 7
+Status Background                       7
+Status Foreground                       0
+Top Menu Normal Background              1
+Top Menu Normal Foreground              14
+Top Menu Select Background              0
+Top Menu Select Foreground              7
+Detail Menu Normal Background           7
+Detail Menu Normal Foreground           0
+Detail Menu Select Background           0
+Detail Menu Select Foreground           7
